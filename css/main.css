@@ -1,0 +1,60 @@
+*, *::before, *::after{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+
+}
+body{
+    font-family: 'Raleway', sans-serif;
+    height: 100vh;
+}
+
+section{
+    font-size: 3em;
+    height: 100vh;
+    padding: 10em;
+}
+
+.section1{
+    background: #085f4c;
+}
+
+.section2{
+    color: #f2f5c9;
+    background: #043d31;
+    position: relative;
+}
+
+.custom-p{
+    opacity: 0;
+    transition: opacity 4s;
+}
+
+.scroll-class{
+    opacity: 1;
+}
+
+.section-3{
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.uselessImage{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    transition: height 0.5s, width 0.5s;
+    transition-delay: 1s;
+    transform-origin: 50%, 50%;
+}
+
+.zoom{
+    height: 130%;
+    width: 130%;
+}
